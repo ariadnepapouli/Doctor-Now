@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+        <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+            <link rel="stylesheet" href="css/style.css">
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="calendar.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>   
+  <title>Doctor Now</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-red">
+      <a class="navbar-brand" href="index.html">Doctor Now</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="aboutus.html">About us <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <li class="nav-item active">
+              <a class="nav-link" href="ourdoctors.html" Our Doctors <span class="sr-only">Our Doctors</span></a>
+            </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              contact us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">phone number: 210222222</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">email: doctornow@gmail.com</a>
+            </div>
+          </li>
+        </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button type="button" class="btn btn-outline-dark">search</button>
+            </form>
+          </div>
+        </nav>
+        <form class="my-form">
+          <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Name </label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+<div class="form-group col-md-6">
+  <label for="inputEmail4">Doctor Speciality</label>
+    <select class="custom-select" id="validationTooltip04" required>
+      <option selected disabled value="">Choose</option>
+      <option>Dermatologist</option>
+      <option>Neurologist</option>
+      <option>Immunologist</option>
+      <option>Endocrinologist</option>
+      <option>Geriatric Medicine Specialist</option>
+      <option>Gynecologist</option>
+      <option>Pediatrician</option> 
+    </select>
+</div>
+<div class="form-group col-md-6">
+  <label for="inputEmail4">Available Date (Check Calendar Bellow)</label>
+  <input type="email" class="form-control" id="inputEmail4">
+</div>
+<div class="form-group">
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" id="gridCheck">
+    <label class="form-check-label" for="gridCheck">
+      Send me an email to remind me 
+    </label>
+    <a class="btn btn-primary" href="index.html" role="button">Schedule</a>
+  </div>
+  </div>
+<table id="calendar">
+    <caption>February 2021</caption>
+    <tr class="weekdays">
+      <th scope="col">Monday</th>
+      <th scope="col">Tuesday</th>
+      <th scope="col">Wednesday</th>
+      <th scope="col">Thursday</th>
+      <th scope="col">Friday</th>
+      <th scope="col">Saturday</th>
+      <th scope="col">Sunday</th>
+    </tr>
+  
+    
+      <td class="day">
+        <div class="date">1</div>
+      </td>
+      <td class="day">
+        <div class="date">2</div>
+      </td>
+      <td class="day">
+        <div class="date">3</div>
+        <div class="event">
+            <div class="event-desc">
+              Doctor John Doe</div>
+              <div class="event-time">
+                10:00am-5:00pm
+              </div>
+      </td>
+      <td class="day">
+        <div class="date">4</div>
+        
+          
+        </div>
+      </td>
+      <td class="day">
+        <div class="date">5</div>
+      </td>
+      <td class="day">
+        <div class="date">6</div>
+        <div class="event">
+            <div class="event-desc">
+              Doctor Jane Doe</div>
+              <div class="event-time">
+                8:00am-13:00pm
+              </div>
+      </td>
+    
+      <td class="day">
+        <div class="date">7</div>
+      </td>
+      <td class="day">
+        <div class="date">8</div>
+      </td>
+      <td class="day">
+        <div class="date">9</div>
+      </td>
+      <td class="day">
+        <div class="date">10</div>
+      </td>
+      <td class="day">
+        <div class="date">11</div>
+        
+          <div class="event-time">
+            
+          </div>
+        </div>
+      </td>
+      <td class="day">
+        <div class="date">12</div>
+      </td>
+      <td class="day">
+        <div class="date">13</div>
+      </td>
+    
+  
+      <td class="day">
+        <div class="date">14</div>
+      </td>
+      <td class="day">
+        <div class="date">15</div>
+      </td>
+      <td class="day">
+        <div class="date">16</div>
+      </td>
+      <td class="day">
+        <div class="date">17</div>
+      </td>
+      <td class="day">
+        <div class="date">18</div>
+      </td>
+      <td class="day">
+        <div class="date">19</div>
+        
+          <div class="event-time">
+            
+          </div>
+        </div>
+      </td>
+      <td class="day">
+        <div class="date">20</div>
+      </td>
+      <td class="day">
+        <div class="date">21</div>
+      </td>
+      <td class="day">
+        <div class="date">22</div>
+          <div class="event-time">  
+          </div>
+        </div>
+      </td>
+      <td class="day">
+        <div class="date">23</div>
+      </td>
+      <td class="day">
+        <div class="date">24</div>
+      </td>
+      <td class="day">
+        <div class="date">25</div>
+      </td>
+      <td class="day">
+        <div class="date">26</div>
+      </td>
+      <td class="day">
+        <div class="date">27</div>
+      </td>
+      <td class="day">
+        <div class="date">28</div>
+      </td>
+      <td class="day">
+        <div class="date"></div>
+      </td>
+      <td class="day">
+        <div class="date"></div>
+      </td>
+      <td class="day">
+        <div class="date"></div>
+      </td>
+  </table>
+</div>
+</form>
+</body>
+</html>
+
+
+
+
+
